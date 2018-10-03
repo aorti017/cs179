@@ -1,7 +1,6 @@
 import wikipedia, sys
 
 w = wikipedia.WikipediaPage(title="List of musicians")
-
 for i in w.links:
 	p = wikipedia.WikipediaPage(title=i)
 	for j in p.links:
